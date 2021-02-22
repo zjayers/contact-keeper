@@ -24,7 +24,6 @@ OR
 
 ## Usage
 
-- Unit tests for the `ContactController` can be found in the `test` directory and run with `mvn test`
 - API docs are served at `localhost:8080/swagger-ui/`
 - API endpoints are as follows:
     - GET: /api/v1/contacts
@@ -32,7 +31,6 @@ OR
     - GET: /api/v1/contacts/{contactId}
     - PUT: /api/v1/contacts/{contactId}
     - DELETE: /api/v1/contacts/{contactId}
-
- 
-
-
+- Unit tests for the `ContactController` can be found in the `test` directory and run with `mvn test`
+- H2 Console can be accessed at `localhost:8080/h2-console` with user `sa` and NO password. JDBC URL = `jdbc:h2:mem:contact_app`
+- Technical planning diagrams can be found as PlantUML files in the `design` directory
