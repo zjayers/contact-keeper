@@ -8,10 +8,6 @@
 
 - Contact Keeper application
 
-## Features
-
-- Run the Source Code: `mvn spring-boot:run` in the root directory
-
 ## Installation
 
 - Unpack the source code to a directory
