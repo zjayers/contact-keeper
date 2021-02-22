@@ -20,7 +20,7 @@
 OR
 
 - `cd` into the directory and run `mvn package`
-- `cd` into the target folder and run `java -jar contact-keeper-0.0.1-SNAPSHOT.jar`
+- run `java -jar target/contact-keeper-0.0.1-SNAPSHOT.jar`
 
 ## Usage
 
