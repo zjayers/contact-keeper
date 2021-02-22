@@ -24,7 +24,7 @@ OR
 
 ## Usage
 
-- Unit tests for the `ContactController` can be found and run with `mvn test`
+- Unit tests for the `ContactController` can be found in the `test` directory and run with `mvn test`
 - API docs are served at `localhost:8080/swagger-ui/`
 - API endpoints are as follows:
     - GET: /api/v1/contacts
