@@ -10,6 +10,8 @@
 
 ## Installation
 
+> Required Maven to be installed on your system - Or can be run inside of IDE (Eclipse, IntelliJ)
+
 - Unpack the source code to a directory
 - `cd` into the directory and run `mvn spring-boot:run`
 
