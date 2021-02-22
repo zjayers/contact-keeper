@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/ie-diagram
+
+entity Contact {
+    *id: long <<PK>>
+    *contact_id: uuid
+    *first_name: string
+    *last_name: string
+    *email_address: string
+}
+
+@enduml

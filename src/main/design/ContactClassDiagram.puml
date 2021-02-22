@@ -1,0 +1,47 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+top to bottom direction
+
+class ContactRequestModel {
+String firstName
+String lastName
+String email
+}
+
+class ContactDto {
+Long id
+UUID contact_id
+String firstName
+String lastName
+String emailAddress
+}
+
+class Contact {
+Long id
+UUID contact_id
+String firstName
+String lastName
+String emailAddress
+}
+
+class ContactResponseModel {
+UUID contact_id
+String firstName
+String lastName
+String emailAddress
+}
+
+package H2Database <<Database>> {
+}
+
+Client -> ContactRequestModel
+ContactRequestModel -> ContactDto
+ContactDto -> Contact
+Contact -> H2Database
+H2Database -> Contact
+Contact -> ContactDto
+ContactDto -> ContactResponseModel
+ContactResponseModel -> Client
+
+@enduml

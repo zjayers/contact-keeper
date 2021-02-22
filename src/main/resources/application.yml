@@ -1,0 +1,15 @@
+spring:
+
+  # Application
+  application:
+    name: mobile-application-service
+
+  # Datasource
+  datasource:
+    url: jdbc:h2:mem:contact_app
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
