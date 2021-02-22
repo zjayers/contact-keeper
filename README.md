@@ -6,7 +6,7 @@
 
 ## Description
 
-- Contact Keeper application built for a coding assessment for 'AmeriSave'
+- Contact Keeper application
 
 ## Features
 
